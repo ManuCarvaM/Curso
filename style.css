@@ -1,0 +1,96 @@
+*{
+    margin: auto;
+    
+}
+
+:root{
+    --blue: #242933;
+    --navyblue: #2F3644;
+    --magenta: #696792;
+    --ashyblue: #7B85A5;
+    --lightblue: #6C63FF;
+    --azulclarito: #ADBBE2;
+    --red: rgba(246, 52, 52, 0.618);
+    --white: #00000; 
+}
+
+body{
+    background-color: var(--blue);
+}
+
+fieldset{
+    background-color: var(--navyblue);
+    width: fit-content;
+    height: 480px;
+    border-color: var(--magenta);
+    border-radius: 5px;
+}
+
+input{
+    width:300px;
+    height: 25px;
+    display: block;
+}
+
+
+
+h1{
+font-family: sans-serif;
+color: var(--azulclarito);
+font-size: xx-large;
+margin-bottom: 20px;
+margin-top: 20px;
+
+}
+
+#etiqueta-nombre{
+    color: var(--ashyblue);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#etiqueta-email{
+    color: var(--ashyblue);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#etiqueta-clave{
+    color:var(--ashyblue);
+    font-family: sans-serif;
+    font-weight: bold;
+
+
+}
+#boton{
+    color: white;
+    background-color: var(--lightblue);
+    width: 310px;
+    height: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: var(--white);
+    margin-top: 15px;
+}
+
+p{
+    color: var(--red);
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 13px;
+    position: relative;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+
+.error-icon{
+    position: relative;
+    left: 280px;
+    top: -45px;
+}
+
+.ok-icon{
+    position: relative;
+    left: 280px;
+    top: -44px;
+}
